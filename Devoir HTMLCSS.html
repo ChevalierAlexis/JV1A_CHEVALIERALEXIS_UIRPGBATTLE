@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<style>
+body {
+    background-image : url("https://opengameart.org/sites/default/files/styles/medium/public/environment_forestbackground.png");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+#Bas{
+    display: flex;
+    align-self: center, space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start, space-evenly;
+    background-color: #000785;
+    color: #FFFFFF;
+    margin:0;
+    width: 100%;
+    
+}
+
+#Sprite{
+    display: flex;
+    align-self: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+#Ennemi{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+
+#Persos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Infos{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#Actions{
+    position: absolute;
+    left:5%;
+    border:solid;
+    background-color: #000785;
+}
+
+.Sprites{
+    margin-left : 250px;
+}
+
+</style>
+
+
+
+<html>
+<body>
+<div id="Bas">
+<div class="Infos" id="Perso joué">
+    <h3>Samouraï</h3>
+</div>
+
+<div class="Infos" id="Personnages">
+    <h3>Samouraï</h3>
+    <h3>Ninja</h3>
+    <h3>Viking</h3>
+    <h3>Ranger</h3>
+</div>
+
+<div class="Infos" id="Statut">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/heart_7.png" alt="Coeur">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/heart_7.png" alt="Coeur">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/heart_7.png" alt="Coeur">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/heart_7.png" alt="Coeur">
+</div>
+
+<div class="Infos" id="PV">
+    <h3>HP 1900</h3>
+    <h3>HP 1828</h3>
+    <h3>HP 1300</h3>
+    <h3>HP 1347</h3>
+</div>
+
+<div class="Infos" id="PM">
+    <h3>PM 59</h3>
+    <h3>PM 89</h3>
+    <h3>PM 72</h3>
+    <h3>PM 13</h3>
+</div>
+
+<div class="Infos" id="Actions">
+    <h3>Attaquer</h3>
+    <h3>Changement</h3>
+    <h3>Invoquer</h3>
+    <h3>Objets</h3>
+</div>
+</div>
+<div id="Sprite">
+<div class="Sprites" id="Persos">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/idle_6.gif" alt="Samouraï">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/idle_7.gif" alt="Ninja">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/demo_0.gif" alt="Viking">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/idle_9.gif" alt="Ranger">
+</div>
+
+<div class="Sprites" id="Ennemi">
+    <img src="https://opengameart.org/sites/default/files/styles/medium/public/dracomachina_0.png" alt="Dragon steampunk">
+</div>
+</div>
+</body>
+</html>
